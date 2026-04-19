@@ -316,10 +316,9 @@
 
 
 
-import React from 'react'
 import { motion } from 'framer-motion'
 import { ShieldAlert, Zap, BarChart3, SlidersHorizontal } from 'lucide-react'
-import { fadeLeft, fadeRight, fadeUp, staggerContainer } from '../../../lib/motion'
+import { fadeLeft, fadeUp, staggerContainer } from '../../../lib/motion'
 
 export default function DataDashboard() {
   return (

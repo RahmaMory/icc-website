@@ -207,7 +207,7 @@ import checkoutImg from "../../../assets/images/E-commerce/1.png";
 import clarityImg from "../../../assets/images/E-commerce/2.png";
 import mobileImg from "../../../assets/images/E-commerce/3.png";
 import { Link } from "react-router-dom";
-import { fadeLeft, fadeRight, fadeUp, staggerContainer } from "../../../lib/motion";
+import { fadeLeft, fadeUp, staggerContainer } from "../../../lib/motion";
 
 const metrics = [
   { icon: Percent, value: "+42%", label: "Conversion Increase" },

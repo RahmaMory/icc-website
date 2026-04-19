@@ -97,10 +97,9 @@
 
 
 
-import React from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { fadeLeft, fadeRight, fadeUp, staggerContainer } from '../../../lib/motion'
+import { fadeLeft, fadeUp, staggerContainer } from '../../../lib/motion'
 
 export default function RealImpactSection() {
   return (
@@ -115,7 +114,7 @@ export default function RealImpactSection() {
           <h2 className="text-white font-semibold leading-[0.95] tracking-[-0.04em] text-5xl sm:text-6xl lg:text-[72px]">
             Real Business
             <br />
-            <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
               Impact
             </span>
           </h2>
@@ -173,7 +172,7 @@ export default function RealImpactSection() {
 
               <div className="relative z-10">
                 <h3 className="text-[56px] font-semibold tracking-[-0.03em] leading-none flex items-baseline gap-1 ">
-                  <span className="text-gray-300 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-cyan-400 group-hover:to-purple-500 group-hover:bg-clip-text group-hover:text-transparent">
+                  <span className="text-gray-300 transition-all duration-300 group-hover:bg-linear-to-r group-hover:from-cyan-400 group-hover:to-purple-500 group-hover:bg-clip-text group-hover:text-transparent">
                     {item.value}
                   </span>
 

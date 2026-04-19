@@ -180,7 +180,7 @@
 import { Activity, BrainCircuit, Network } from 'lucide-react'
 import { motion } from 'framer-motion'
 import curveLine from '../../../assets/images/ai-automation/curve-line.svg'
-import { fadeLeft, fadeRight, fadeUp, staggerContainer } from '../../../lib/motion'
+import { fadeLeft, fadeRight, fadeUp } from '../../../lib/motion'
 
 const features = [
   {
@@ -216,7 +216,7 @@ export default function TheCommandCenter() {
         >
           <h2 className="text-white font-semibold leading-[0.95] tracking-[-0.04em] text-4xl sm:text-5xl md:text-6xl lg:text-[72px]">
             <span>The Command </span>
-            <span className="bg-gradient-to-r from-cyan-400 to-purple-300 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-cyan-400 to-purple-300 bg-clip-text text-transparent">
               Center
             </span>
           </h2>
@@ -273,7 +273,7 @@ export default function TheCommandCenter() {
             </motion.div>
 
             <motion.div className="p-4 sm:p-5 lg:p-8" variants={fadeRight}>
-              <div className="overflow-hidden rounded-[24px] border border-cyan-400/12 bg-[#060d1d] shadow-[0_0_0_1px_rgba(255,255,255,0.02)]">
+              <div className="overflow-hidden rounded-3xl border border-cyan-400/12 bg-[#060d1d] shadow-[0_0_0_1px_rgba(255,255,255,0.02)]">
                 <div className="flex items-center gap-3 border-b border-white/8 px-6 py-4">
                   <div className="flex items-center gap-2">
                     <span className="h-3 w-3 rounded-full bg-red-500/80" />
@@ -293,14 +293,14 @@ export default function TheCommandCenter() {
                       <div className="h-4 w-16 rounded-md bg-cyan-400/30" />
                     </div>
 
-                    <div className="relative h-[220px] w-full overflow-hidden rounded-[12px]">
+                    <div className="relative h-55 w-full overflow-hidden rounded-xl">
                       <img
                         src={curveLine}
                         alt="Analytics trend line"
                         className="absolute inset-0 h-full w-full object-contain opacity-95"
                       />
 
-                      <div className="absolute inset-x-0 bottom-0 h-[72%] bg-gradient-to-t from-cyan-400/10 to-transparent blur-xl" />
+                      <div className="absolute inset-x-0 bottom-0 h-[72%] bg-linear-to-t from-cyan-400/10 to-transparent blur-xl" />
                     </div>
                   </div>
 
@@ -310,8 +310,8 @@ export default function TheCommandCenter() {
                       <div className="mt-7 text-[34px] font-semibold tracking-[-0.03em] text-white">
                         99.9%
                       </div>
-                      <div className="mt-4 h-[4px] w-full overflow-hidden rounded-full bg-black/30">
-                        <div className="h-full w-[86%] rounded-full bg-gradient-to-r from-fuchsia-500 to-violet-400" />
+                      <div className="mt-4 h-1 w-full overflow-hidden rounded-full bg-black/30">
+                        <div className="h-full w-[86%] rounded-full bg-linear-to-r from-fuchsia-500 to-violet-400" />
                       </div>
                     </div>
 
@@ -320,8 +320,8 @@ export default function TheCommandCenter() {
                       <div className="mt-7 text-[34px] font-semibold tracking-[-0.03em] text-white">
                         1.2ms
                       </div>
-                      <div className="mt-4 h-[4px] w-full overflow-hidden rounded-full bg-black/30">
-                        <div className="h-full w-[48%] rounded-full bg-gradient-to-r from-fuchsia-500 to-violet-400" />
+                      <div className="mt-4 h-1 w-full overflow-hidden rounded-full bg-black/30">
+                        <div className="h-full w-[48%] rounded-full bg-linear-to-r from-fuchsia-500 to-violet-400" />
                       </div>
                     </div>
                   </div>
