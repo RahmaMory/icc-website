@@ -125,10 +125,10 @@ export default function TestimonialsSection() {
     setUserTestimonials(formatted)
   }, [])
 
-  const testimonials = useMemo(
-    () => [...initialTestimonials, ...userTestimonials],
-    [userTestimonials]
-  )
+const testimonials: Testimonial[] = useMemo(
+  () => [...initialTestimonials, ...userTestimonials],
+  [userTestimonials]
+)
 
   return (
     <section className="bg-[#0D1421] text-white py-24 overflow-visible">
