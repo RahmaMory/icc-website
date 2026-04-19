@@ -15,7 +15,7 @@ export const testimonials: Testimonial[] = [
     role: "CEO",
         rating: 5,
     company: "TechStart Inc",
-    image: "/src/assets/avatars/Sarah.jpg",
+    image: "/avatars/Sarah.jpg",
     text: "ICC transformed our MVP idea into a fully functional product in just 4 weeks. The attention to detail was incredible.",
   },
   {
@@ -24,7 +24,7 @@ export const testimonials: Testimonial[] = [
     role: "Founder",
         rating: 5,
     company: "NextGen Labs",
-    image: "/src/assets/avatars/Michael.webp",
+    image: "/avatars/Michael.webp",
     text: "فريق محترف، تواصل واضح، وتنفيذ متميز من البداية إلى النهاية.",
   },
   {
@@ -33,14 +33,14 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     role: "CEO",
     company: "RetailHub",
-    image: "/src/assets/avatars/Emily.avif",
+    image: "/avatars/Emily.avif",
     text: "They delivered beyond expectations. Our platform performance improved dramatically.",
   },{
     id: 4,
     name: "أحمد محمد",
     role: "Founder",
     rating: 5,
-    image:"/src/assets/avatars/Sarah.jpg",
+    image:"/avatars/Sarah.jpg",
     text: "التعامل كان احترافي جدًا والمشروع اتسلم في وقت قياسي."
   },
   {
@@ -48,7 +48,7 @@ export const testimonials: Testimonial[] = [
     name: "ساره علي",
     role: "CEO",
     rating: 5,
-    image: "/src/assets/avatars/Michael.webp",
+    image: "/avatars/Michael.webp",
     text: "عمل رائع وتواصل احترافي للغاية."
   },
   {
@@ -56,7 +56,7 @@ export const testimonials: Testimonial[] = [
     name: "محمد خالد",
     role: "Startup Owner",
     rating: 4,
-    image:"/src/assets/avatars/Sarah.jpg",
+    image:"/avatars/Sarah.jpg",
     text: "شغل ممتاز والتعامل كان سلس جدًا.",
       company: "NextGen Labs",
   },
@@ -65,7 +65,7 @@ export const testimonials: Testimonial[] = [
     name: "Emily Carter",
     role: "Product Manager",
     rating: 5,
-    image: "/src/assets/avatars/Emily.avif",
+    image: "/avatars/Emily.avif",
     text: "They transformed our idea into a real product."
   },
 ]

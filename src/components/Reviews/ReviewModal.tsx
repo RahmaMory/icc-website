@@ -43,7 +43,7 @@ export default function ReviewModal({
       company: company.trim() || "",
       rating: rating,
       text: text.trim() || "No comment provided",
-      image: image || "/src/assets/avatars/default.webp",
+      image: image || "/avatars/default.webp",
     }
 
     const updatedReviews = [...reviewsArray, newReview]
